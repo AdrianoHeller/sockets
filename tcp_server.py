@@ -9,7 +9,7 @@ server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 server.listen(5)
 
-print('[*] Listening on %s:%d' % (bind_ip, bind_port))
+print(f'[*] Listening on {bind_ip}:{bind_port}')
 
 # define thread para tratamento dos clients
 
